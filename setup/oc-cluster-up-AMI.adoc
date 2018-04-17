@@ -157,8 +157,11 @@ firewall-cmd --reload
 
 ```
 wget https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit.tar.gz
+
 tar xzvf openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit.tar.gz
+
 sudo cp openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit/oc /usr/sbin/
+
 sudo rm -rf openshift-origin-client*
 ```
 
@@ -171,10 +174,14 @@ sudo sysctl -w net.ipv4.ip_forward=1
 * Clone the lab repo: 
 
 ```
-git clone https://github.com/mannimal/aws-loft-2017-container-lab.git
+git clone https://github.com/mann1mal/aws-loft-2017-container-lab.git
+
 chmod +x /home/ec2-user/aws-loft-2017-container-lab/scripts/host/start-oc.sh
+
 chmod +x /home/ec2-user/aws-loft-2017-container-lab/scripts/host/cleanup-oc.sh
+
 mv /home/ec2-user/aws-loft-2017-container-lab/scripts/host/start-oc.sh ~
+
 mv /home/ec2-user/aws-loft-2017-container-lab/scripts/host/cleanup-oc.sh ~
 ```
 
@@ -182,6 +189,7 @@ mv /home/ec2-user/aws-loft-2017-container-lab/scripts/host/cleanup-oc.sh ~
 
 ```
 ./start-oc.sh
+
 sudo rm -rf /home/ec2-user/aws-loft-2017-container-lab
 ```
 
