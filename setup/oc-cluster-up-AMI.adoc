@@ -101,13 +101,13 @@ ssh -i <KEY PAIR NAME HERE>.pem ec2-user@<aws-public-hostname>.amazonaws.com"
 * Install auxiliary packages used in the lab:
 
 ```
-# yum -y install ansible python-devel git wget firewalld docker bash-completion"
+# yum -y install ansible python-devel git wget firewalld docker bash-completion
 ```
 
 * Install the development tools: 
 
 ```
-# yum groupinstall -y "Development Tools""
+# yum groupinstall -y "Development Tools"
 ```
 
 * Configure Docker
