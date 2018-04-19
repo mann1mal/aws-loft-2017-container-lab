@@ -1,4 +1,4 @@
-# LAB 4: Orchestrated deployment of a decomposed application
+# LAB 4: Orchestrated Deployment of a Decomposed Application
 
 **Note: This lab is optional and does NOT need to be completed in order to move on to the next lab. [Click here](../lab5/chapter5.md) to move on to the next lab.**
 
