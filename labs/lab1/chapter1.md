@@ -1,4 +1,4 @@
-# LAB 1: docker Refresh
+# LAB 1: Docker Overview
 
 **NOTE:** For the sake of time, the only portion of this lab that is required to move forward with the rest of the lab is the "Deploy a Container Registry" section at the bottom of the page
 
